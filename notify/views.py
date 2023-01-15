@@ -9,7 +9,7 @@ except ImportError:
 from django.http import JsonResponse, HttpResponseBadRequest, HttpResponseRedirect
 from django.shortcuts import render
 from django.utils.http import is_safe_url
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 from .models import Notification
 from .utils import render_notification
