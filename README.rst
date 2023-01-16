@@ -36,7 +36,7 @@ Probably the best way to install is by using `PIP`::
 
 If you want to stay on the bleeding edge of the app::
 
-    $ git clone https://github.com/v1k45/django-notify-x.git
+    $ git clone https://github.com/syk1k/django-notify-x.git
     $ cd django-notify-x
     $ python setup.py install
 

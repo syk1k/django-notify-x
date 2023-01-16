@@ -4,7 +4,7 @@ from notify.models import Notification
 from django.utils.translation import gettext as _
 
 
-notify = dispatch.Signal(providing_args=[
+notify = dispatch.Signal([
     'recipient', 'recipient_list',
     'actor', 'actor_text', 'actor_url',
     'verb', 'description', 'nf_type',
